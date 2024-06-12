@@ -7,7 +7,7 @@
 2. Add this bucket to scoop:
 
 ```
-scoop bucket add redis https://github.com/redis/scoop-redis.git
+scoop bucket add redis https://github.com/redis/scoop.git
 ```
 
 3. Install tools via `scoop install`:
