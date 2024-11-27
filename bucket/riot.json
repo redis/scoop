@@ -1,11 +1,11 @@
 {
-  "version": "4.1.8",
+  "version": "4.1.9",
   "description": "Get data in and out of Redis with RIOT",
   "homepage": "https://github.com/redis/riot",
   "license": "Apache-2.0",
-  "url": "https://github.com/redis/riot/releases/download/v4.1.8/riot-4.1.8.zip",
-  "hash": "sha256:91a9c06b79f22ebd4423d6c347febfb16dc51caa84f3fced0780991edfb26549",
-  "extract_dir": "riot-4.1.8",
+  "url": "https://github.com/redis/riot/releases/download/v4.1.9/riot-4.1.9.zip",
+  "hash": "sha256:7ab6a932ff7bfd285fff30f7b94f1e67d00ae9ed47b593b3544aac5c378d31ee",
+  "extract_dir": "riot-4.1.9",
   "env_add_path": "bin",
   "suggest": {
     "JDK": [
