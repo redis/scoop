@@ -1,27 +1,27 @@
 {
-  "version": "4.2.3",
-  "description": "Get data in and out of Redis with RIOT",
-  "homepage": "https://github.com/redis/riot",
-  "license": "Apache-2.0",
-  "url": "https://github.com/redis/riot/releases/download/v4.2.3/riot-4.2.3.zip",
-  "hash": "sha256:cd191ec236bf2b08502eaa290436e842cb49ff824b0833eb9f1d3dbb0263cd70",
-  "extract_dir": "riot-4.2.3",
-  "env_add_path": "bin",
-  "suggest": {
-    "JDK": [
-      "java/oraclejdk",
-      "java/openjdk"
-    ]
-  },
-  "checkver": {
-    "url": "https://github.com/redis/riot/releases/latest",
-    "re": "v([\\d.]+).zip"
-  },
-  "autoupdate": {
-    "url": "https://github.com/redis/riot/releases/download/v$version/riot-$version.zip",
-    "extract_dir": "riot-$version",
-    "hash": {
-      "url": "$url.sha256"
+    "version": "4.2.4",
+    "description": "Get data in and out of Redis with RIOT",
+    "homepage": "https://github.com/redis/riot",
+    "license": "Apache-2.0",
+    "url": "https://github.com/redis/riot/releases/download/v4.2.4/riot-4.2.4.zip",
+    "hash": "sha256:558a7bee2d717a4252d7f43fccb2731537b10eca7f70c6620495f9a36826f822",
+    "extract_dir": "riot-4.2.4",
+    "env_add_path": "bin",
+    "suggest": {
+        "JDK": [
+            "java/oraclejdk",
+            "java/openjdk"
+        ]
+    },
+    "checkver": {
+        "url": "https://github.com/redis/riot/releases/latest",
+        "re": "v([\\d.]+).zip"
+    },
+    "autoupdate": {
+        "url": "https://github.com/redis/riot/releases/download/v$version/riot-$version.zip",
+        "extract_dir": "riot-$version",
+        "hash": {
+            "url": "$url.sha256"
+        }
     }
-  }
 }
