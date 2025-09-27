@@ -1,11 +1,11 @@
 {
-    "version": "1.5.6",
+    "version": "1.5.7",
     "description": "Get data in and out of Redis with RIOT-X",
     "homepage": "https://github.com/redis/riotx-dist",
     "license": "Apache-2.0",
-    "url": "https://github.com/redis/riotx-dist/releases/download/v1.5.6/riotx-1.5.6.zip",
-    "hash": "sha256:cdd9d59ec2979b3b037c94745dba28e2a99c4fb860f5b8f7ebdb8a8dca19eb0a",
-    "extract_dir": "riotx-1.5.6",
+    "url": "https://github.com/redis/riotx-dist/releases/download/v1.5.7/riotx-1.5.7.zip",
+    "hash": "sha256:ee171c821850a48696f2be3db05e15f32913dc02c8297be34fd1cdf57e69190b",
+    "extract_dir": "riotx-1.5.7",
     "env_add_path": "bin",
     "suggest": {
         "JDK": [
