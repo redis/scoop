@@ -1,11 +1,11 @@
 {
-    "version": "4.3.0",
-    "description": "Get data in and out of Redis with RIOT",
-    "homepage": "https://github.com/redis/riot",
+    "version": "2.0.0",
+    "description": "Get data in and out of Redis with RIOT-X",
+    "homepage": "https://github.com/redis/riotx",
     "license": "Apache-2.0",
-    "url": "https://github.com/redis/riot/releases/download/v4.3.0/riot-4.3.0.zip",
-    "hash": "sha256:7c3c6bba164cae2c6dc0ede0c5e27d3650ce2ae5466e0a1058fa6ac81a5f97f2",
-    "extract_dir": "riot-4.3.0",
+    "url": "https://github.com/redis/riotx-dist/releases/download/v2.0.0/riot-2.0.0.zip",
+    "hash": "sha256:ea759adc6349cadfc77435f3dd9f806d4c847ba9e12e20ce4250d91c1c5ac3c9",
+    "extract_dir": "riot-2.0.0",
     "env_add_path": "bin",
     "suggest": {
         "JDK": [
@@ -14,11 +14,11 @@
         ]
     },
     "checkver": {
-        "url": "https://github.com/redis/riot/releases/latest",
+        "url": "https://github.com/redis/riotx/releases/latest",
         "re": "v([\\d.]+).zip"
     },
     "autoupdate": {
-        "url": "https://github.com/redis/riot/releases/download/v$version/riot-$version.zip",
+        "url": "https://github.com/redis/riotx-dist/releases/download/v$version/riot-$version.zip",
         "extract_dir": "riot-$version",
         "hash": {
             "url": "$url.sha256"
